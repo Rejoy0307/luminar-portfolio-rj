@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logo {
+  /* height: 30px; */
+  width: 130px;
+}
+
+#rj {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  width: 85%;
+  margin-left: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.title {
+  margin-left: 8%;
+  margin-top: 13%;
+}
+
+.title h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.title p {
+  /* font-size: 22px; */
+  line-height: 26px;
+}
+
+.title span {
+  color: orange;
+}
+
+.title a {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.image {
+  position: absolute;
+  width: 45%;
+  height: 80%;
+  bottom: 0;
+  right: 30px;
+}
+
+.image img {
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  bottom: 0;
+  transition: bottom 1s, left 1s;
+}
+
+.image:hover .shape {
+  bottom: 70px;
+}
+
+.image:hover .girl {
+  left: 40%;
+}
+
+#about {
+  margin-top: 25%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 30px;
+}
+
+.heading span {
+  font-size: 20px;
+  color: green;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1 rem;
+  margin-top: 2rem;
+}
+
+.about-content img {
+  width: 90%;
+}
+
+.about-text {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.information {
+  margin: 1rem 0 1.4rem;
+}
+
+.information .info-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.information .info-box span {
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#skills {
+  margin: 8% 8%;
+}
+
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-img img {
+  padding-left: 4rem;
+  width: 100%;
+  object-position: center;
+}
+
+.bar-box {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.bar-box h3,
+span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.light-bar {
+  position: absolute;
+  width: 100%;
+  height: 0.5rem;
+  background-color: aqua;
+  border-radius: 0.5rem;
+  bottom: 0;
+  left: 0;
+}
+
+.html-bar {
+  width: 94%;
+  background-color: rgb(2, 48, 48);
+}
+.css-bar {
+  width: 84%;
+  background-color: rgb(2, 48, 48);
+}
+.js-bar {
+  width: 90%;
+  background-color: rgb(2, 48, 48);
+}
+.react-bar {
+  width: 89%;
+  background-color: rgb(2, 48, 48);
+}
+
+#contact {
+  margin: 8%;
+}
+
+.icon-div {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
